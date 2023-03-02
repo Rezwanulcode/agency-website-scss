@@ -1,0 +1,45 @@
+// ##################
+//? fonts
+// ##################
+
+$font-md:500;
+$font-sm:300;
+$font-lg:900;
+
+//? global content font
+
+
+body {
+   font-weight: $font-sm;
+}
+
+p {
+   font-weight: $font-sm;
+   margin-bottom: $mb_text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: $font-md;
+   margin-bottom: $mb_heading;
+}
+
+.title {
+   font-size: 6.25rem;
+   font-weight: $font-lg;
+
+}
+
+.title-md {
+   font-size: 3.75rem;
+   font-weight: $font-lg;
+
+}
+.title-sm{
+   font-size:2.1875rem ;
+   
+}

@@ -1,0 +1,13 @@
+.btn-hero {
+   background-color: $primaryColor;
+   color: $whiteColor;
+   padding: 1rem 2.5rem;
+   border-radius: 1.875rem;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+
+   &:hover {
+      background: $secondaryColor;
+      color: $blackColor;
+   }
+}

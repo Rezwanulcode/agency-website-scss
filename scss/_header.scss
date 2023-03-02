@@ -1,0 +1,33 @@
+.navbar-brand {
+   img {
+      max-width: 200px;
+   }
+}
+
+#mainnav {
+   li {
+      margin: 0 8px;
+   }
+
+   a {
+      font-weight: $font-md;
+      font-size: 16px;
+      color: $blackColor;
+
+      &:hover {
+         color: $primaryColor;
+
+      }
+
+      &.active {
+         color: $primaryColor;
+      }
+   }
+
+}
+
+#main_menu {
+   background-color: $lightBg;
+   border-bottom: 1px solid #ddd;
+   box-shadow: 0 0 10px #ddd;
+}

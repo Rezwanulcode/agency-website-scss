@@ -1,0 +1,18 @@
+#newsletter{
+   background: $secondaryColor;
+h4{
+   // margin: 0;
+   color: $whiteColor;
+}
+button{
+   background: $whiteColor;
+   color: $blackColor;
+   border-radius: 0;
+   padding: 15px 60px;
+   border: 4px solid rgb(226, 216, 216);
+   &:hover{
+      background: $primaryColor;
+      color: #fff;
+   }
+}
+}
