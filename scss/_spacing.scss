@@ -2,43 +2,6 @@
 //?margin and padding create
 // ##################
 
-// @each $abbr,
-// $name in ("t": "top", "r": "right", "b": "bottom", "l": "left") {
-//    @for $i from 1 through 20 {
-//       .pa#{$abbr}-#{$i} {
-//          padding-#{$name}: 1rem * $i;
-//       }
-
-//       .ma#{$abbr}-#{$i} {
-//          margin-#{$name}: 1rem * $i;
-//       }
-//    }
-// }
-//example class:- .m-t-d
-// @function space($n){                                                
-//   @return nth( 0 1 2 3 4 5 6 7 8 9 10 11, $n + 1) * 1rem;
-// }
-
-// @function space($n) {                                                
-//   $values: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11;
-//   $base: 1rem;
-//   @if type-of($n) == 'number' {
-//     @return nth($values, floor($n) + 1) * $base + ($n - floor($n)) * $base;
-//   } @else if type-of($n) == 'list' {
-//     $result: ();
-//     @each $value in $n {
-//       $result: append($result, nth($values, floor($value) + 1) * $base + ($value - floor($value)) * $base);
-//     }
-//     @return $result;
-//   } @else {
-//     @warn 'Invalid argument type for space function. Expected a number or a list of numbers.';
-//     @return null;
-//   }
-// }
-
-// .box{
-//    padding-left: space(1.5);
-// }
 $mb_text:0.9375rem;
 $mb_heading:0.9375rem;
 $paddingSection:7.5rem;
