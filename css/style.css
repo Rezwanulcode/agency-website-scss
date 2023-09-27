@@ -32,3 +32,7 @@ img {
    max-width: 100%;
    display: inline-block;
 }
+.modification-class{
+display: inline-block;  
+border: none;
+}
